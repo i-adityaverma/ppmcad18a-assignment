@@ -22,5 +22,10 @@ def vote(name):
 def results():
     return votes
 
+@app.route('/reset',methods=["GET"])
+def reset():
+    reset = votes.clear()
+    return {"msg": f"Reset Done"}
+
 if __name__=="__main__":
     app.run(debug=True)

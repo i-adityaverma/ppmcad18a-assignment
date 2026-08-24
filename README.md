@@ -85,6 +85,12 @@ The GitHub repository showing the `dev` and `main` branches:
 
 ### Commit and merge history
 
-The repository history showing the Version 1 and Version 2 development and releases:
+The repository history showing the Version 1 and Version 2 development:
 
 ![GitHub version history](docs/screenshots/github-history.png)
+
+### Release history
+
+The repository history showing the Version 1 and Version 2 releases:
+
+![GitHub version history](docs/screenshots/github-releases.png)
